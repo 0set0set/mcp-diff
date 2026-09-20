@@ -1,4 +1,4 @@
-# mcp-diff
+# WIP ⚠️ mcp-diff
 
 `mcp-diff` is a semantic diff for MCP client configuration. It shows which MCP
 servers a repository grants to its agents, how clients launch or reach them,

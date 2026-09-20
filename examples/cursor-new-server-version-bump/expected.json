@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "format": "cursor",
+  "servers": [
+    {
+      "name": "github",
+      "status": "changed",
+      "transport": "stdio",
+      "changes": [
+        {
+          "path": "args[1]",
+          "op": "changed",
+          "old": "@github/github-mcp-server@1.2.0",
+          "new": "@github/github-mcp-server@1.4.0"
+        }
+      ]
+    },
+    {
+      "name": "postgres",
+      "status": "added",
+      "transport": "stdio",
+      "changes": [
+        {
+          "path": "args[0]",
+          "op": "added",
+          "new": "-y"
+        },
+        {
+          "path": "args[1]",
+          "op": "added",
+          "new": "@bytebase/dbhub"
+        },
+        {
+          "path": "args[2]",
+          "op": "added",
+          "new": "--dsn"
+        },
+        {
+          "path": "args[3]",
+          "op": "added",
+          "new": "postgresql://app:***@prod-db.internal:5432/analytics"
+        },
+        {
+          "path": "command",
+          "op": "added",
+          "new": "npx"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "added": 1,
+    "removed": 0,
+    "changed": 1
+  }
+}

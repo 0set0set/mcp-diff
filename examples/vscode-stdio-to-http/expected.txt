@@ -1,0 +1,16 @@
+MCP configuration diff (vscode)
+--------------------------------
+
+~ github
+    args[0]: - run
+    args[1]: - -i
+    args[2]: - --rm
+    args[3]: - ghcr.io/github/github-mcp-server
+    command: docker -> (none)
+    env.GITHUB_PERSONAL_ACCESS_TOKEN: - input reference (github-token)
+    headers.Authorization: + literal value
+    transport: stdio -> http
+    url: (none) -> https://api.githubcopilot.com/mcp/
+
+--------------------------------
+0 servers added, 0 removed, 1 changed

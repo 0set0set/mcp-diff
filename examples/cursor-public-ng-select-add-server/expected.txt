@@ -1,0 +1,13 @@
+MCP configuration diff (cursor)
+--------------------------------
+
++ angular-cli (stdio)
+    args[0]: + -y
+    args[1]: + @angular/cli
+    args[2]: + mcp
+    args[3]: + --experimental-tool
+    args[4]: + devserver
+    command: + npx
+
+--------------------------------
+1 server added, 0 removed, 0 changed

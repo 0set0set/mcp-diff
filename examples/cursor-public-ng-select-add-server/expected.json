@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "format": "cursor",
+  "servers": [
+    {
+      "name": "angular-cli",
+      "status": "added",
+      "transport": "stdio",
+      "changes": [
+        {
+          "path": "args[0]",
+          "op": "added",
+          "new": "-y"
+        },
+        {
+          "path": "args[1]",
+          "op": "added",
+          "new": "@angular/cli"
+        },
+        {
+          "path": "args[2]",
+          "op": "added",
+          "new": "mcp"
+        },
+        {
+          "path": "args[3]",
+          "op": "added",
+          "new": "--experimental-tool"
+        },
+        {
+          "path": "args[4]",
+          "op": "added",
+          "new": "devserver"
+        },
+        {
+          "path": "command",
+          "op": "added",
+          "new": "npx"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "added": 1,
+    "removed": 0,
+    "changed": 0
+  }
+}

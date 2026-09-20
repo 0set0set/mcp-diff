@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "format": "claude",
+  "servers": [
+    {
+      "name": "slack",
+      "status": "changed",
+      "transport": "http",
+      "changes": [
+        {
+          "path": "headersHelper",
+          "op": "changed",
+          "old": "(none)",
+          "new": "/opt/bin/get-mcp-auth-headers.sh"
+        },
+        {
+          "path": "oauth.scopes",
+          "op": "added",
+          "new": "chat:write"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "changed": 1
+  }
+}

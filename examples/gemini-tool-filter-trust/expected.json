@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "format": "gemini",
+  "servers": [
+    {
+      "name": "github",
+      "status": "changed",
+      "transport": "stdio",
+      "changes": [
+        {
+          "path": "includeTools",
+          "op": "added",
+          "new": "create_release"
+        },
+        {
+          "path": "includeTools",
+          "op": "added",
+          "new": "merge_pull_request"
+        },
+        {
+          "path": "trust",
+          "op": "changed",
+          "old": "false",
+          "new": "true"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "changed": 1
+  }
+}

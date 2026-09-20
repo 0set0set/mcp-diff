@@ -1,0 +1,9 @@
+MCP configuration diff (claude)
+--------------------------------
+
+~ slack
+    headersHelper: (none) -> /opt/bin/get-mcp-auth-headers.sh
+    oauth.scopes: + chat:write
+
+--------------------------------
+0 servers added, 0 removed, 1 changed

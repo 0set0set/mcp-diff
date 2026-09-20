@@ -1,0 +1,10 @@
+MCP configuration diff (gemini)
+--------------------------------
+
+~ github
+    includeTools: + create_release
+    includeTools: + merge_pull_request
+    trust: false -> true
+
+--------------------------------
+0 servers added, 0 removed, 1 changed

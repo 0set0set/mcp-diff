@@ -1,0 +1,15 @@
+MCP configuration diff (cursor)
+--------------------------------
+
+~ github
+    args[1]: @github/github-mcp-server@1.2.0 -> @github/github-mcp-server@1.4.0
+
++ postgres (stdio)
+    args[0]: + -y
+    args[1]: + @bytebase/dbhub
+    args[2]: + --dsn
+    args[3]: + postgresql://app:***@prod-db.internal:5432/analytics
+    command: + npx
+
+--------------------------------
+1 server added, 0 removed, 1 changed

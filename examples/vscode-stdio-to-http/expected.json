@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "format": "vscode",
+  "servers": [
+    {
+      "name": "github",
+      "status": "changed",
+      "transport": "http",
+      "changes": [
+        {
+          "path": "args[0]",
+          "op": "removed",
+          "old": "run"
+        },
+        {
+          "path": "args[1]",
+          "op": "removed",
+          "old": "-i"
+        },
+        {
+          "path": "args[2]",
+          "op": "removed",
+          "old": "--rm"
+        },
+        {
+          "path": "args[3]",
+          "op": "removed",
+          "old": "ghcr.io/github/github-mcp-server"
+        },
+        {
+          "path": "command",
+          "op": "changed",
+          "old": "docker",
+          "new": "(none)"
+        },
+        {
+          "path": "env.GITHUB_PERSONAL_ACCESS_TOKEN",
+          "op": "removed",
+          "old": "input reference (github-token)"
+        },
+        {
+          "path": "headers.Authorization",
+          "op": "added",
+          "new": "literal value"
+        },
+        {
+          "path": "transport",
+          "op": "changed",
+          "old": "stdio",
+          "new": "http"
+        },
+        {
+          "path": "url",
+          "op": "changed",
+          "old": "(none)",
+          "new": "https://api.githubcopilot.com/mcp/"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "changed": 1
+  }
+}

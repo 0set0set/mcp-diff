@@ -1,0 +1,10 @@
+.git
+.gitignore
+bin
+Dockerfile
+LICENSE
+Makefile
+README.md
+examples
+testdata
+**/*_test.go

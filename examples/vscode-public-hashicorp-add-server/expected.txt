@@ -1,0 +1,10 @@
+MCP configuration diff (vscode)
+--------------------------------
+
++ ember (stdio)
+    args[0]: + -y
+    args[1]: + ember-mcp@0.1.0
+    command: + npx
+
+--------------------------------
+1 server added, 0 removed, 0 changed
